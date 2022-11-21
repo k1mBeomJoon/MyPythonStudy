@@ -1,0 +1,57 @@
+'''
+    10.07_HTML_summary
+'''
+
+Doctype html
+meta charset="UTF-8" - for encoding
+
+'태그'
+<html> </html>
+<head> </head>
+<body> </body>
+<title> 제목(타이틀) </title>
+<h1> 제목(타이틀) </h1>
+<h2> </h2>
+,      ,
+,      ,
+,      ,
+<h6> </h6>
+<p> </p>
+<br/> : 강제 줄바꿈
+
+[블럭 태그]
+페이지의 레이아웃을 치는 태그라고 생각하면 편함.
+-항상 새로운 줄에 태그가 생성.
+    -> 오른쪽에 공간이 남더라도 새로운 태그는 다음 줄에 생성됨.
+-좌우 넓이가 100%라서 태그 하나가 한 줄을 독차지함.
+-->
+<address>, <article>, <aside>, <audio>,
+<blockquote>, <canvas>, <dd>, <div>, <dl>,
+<fieldset>, <figcaption>, <figure>, <footer>,
+<form>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <header>,
+<hgroup>, <hr>, <noscript>, <ol>, <output>, <p>, <pre>,
+<section>, <table>, <ul>, <video>
+
+[인라인 태그]
+내용을 적는 태그라고 생각하면 편함.
+블럭 태그로 짜놓은 틀 안에 내용을 적을 때 사용하는 태그들임.
+-좌우 공간을 필요한 공간 만큼만 차지함.
+    -> 이전 이후 태그 사이에 공간이 있다면 그 공간에 배치됨.
+-다른 태그와 같은 줄에 배치될 수 있다.
+-->
+<a>, <abbr>, <acronym>, <b>, <bdo>, <big>,
+<br/>, <button>, <cite>, <code>, <dfn>, <em>,
+<i>, <img>, <input>, <kbd>, <label>, <map>, <object>,
+<q>, <samp>, <small>, <script>, <select>, <span>,
+<strong>, <sub>, <sup>, <textarea>, <tt>, <var>
+
+<di> 태그는 뭐임 처음 보는데 ㅜ
+
+
+
+
+
+
+
+
+

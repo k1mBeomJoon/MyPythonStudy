@@ -1,0 +1,24 @@
+인공지능 - 이상구 교수 
+http://matrix.skku.ac.kr/math4ai/
+-> 대학 프로젝트 수준이 ?
+-> 수학 파야된다.
+코딩 연습 사이트
+https://codingspooning.tistory.com/entry/Python-%EC%97%B0%EC%8A%B5-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%B6%94%EC%B2%9C-%EC%98%88%EC%A0%9C-%EC%98%81%EC%83%81
+프로그래머스school
+https://school.programmers.co.kr/learn/courses/2
+
+-프로그래머스school -Python 기초 문법
+-> 프로그래머스나 백준에서 문제풀이 연습
+- 학부수준 기초수학
+-> 공학수학1/2, 선형대수학, 이산수학, 백터해석학및연습, 확률과통계, 수치해석
+*선형대수학, 확률론, 미적분
+
+-수학과 AI의 관계성
+https://post.naver.com/viewer/postView.naver?volumeNo=30719583&memberNo=607786
+
+-수학도가 인공지능 연구에 기여하는 방법
+https://horizon.kias.re.kr/15780/
+-*선형대수학, 확률론, 통계학, 측도론(measure theory), 함수해석학(functional analysis)
+
+-AI에 필요한 수학
+https://lngnat.tistory.com/entry/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-AI-%EA%B3%B5%EB%B6%80%EC%97%90-%ED%95%84%EC%9A%94%ED%95%9C-%EC%88%98%ED%95%99-%EC%A2%85%EB%A5%98-Artificial-Intelligence-Mathmatics

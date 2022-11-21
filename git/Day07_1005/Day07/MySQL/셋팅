@@ -1,0 +1,106 @@
+1. 버추얼박스 다운로드
+
+    1-1
+        https://www.virtualbox.org/wiki/Downloads
+
+    1-2
+        windows hosts 로 다운
+
+    1-3
+        exe 실행 -> 설치
+
+2. vagrant 다운로드
+
+    2-1
+        https://www.vagrantup.com/
+
+    2-2
+        다운로드할 때
+        윈도우키 + pc정보 -> 프로세서에서 cpu 확인하고 AMD면 amd로 다운하고, intel이면 686으로 다운
+
+    2-3
+        설치 및 재시작
+
+3. 작업하는 파일로 들어감
+
+    3-1
+        해당 파일 작업공간에서 cmd 실행
+
+    3-2
+        vagrant init 이미지명
+    ->
+    dir
+    ->
+        vagrant up
+
+4. cmder 설치
+
+    4-1
+        cmder 작업파일로 옮겨가서 압축풀기
+
+    4-2
+        cmder 창에서
+
+        cd /    # 최상위 폴더로 이동
+        ->
+        cd 상위작업폴더/
+        ->
+        cd 하위작업폴더/
+
+    4-3
+        vagrant ssh (엔터)
+
+    4-4
+        vagrant@127.0.0.1's password: vagrant
+
+    4-5
+    '''
+        Welcome to Ubuntu 14.04.6 LTS (GNU/Linux 3.13.0-170-generic x86_64)
+
+        * Documentation:  https://help.ubuntu.com/
+
+        System information as of Wed Oct  5 12:20:46 UTC 2022
+
+        System load:  0.08              Processes:           83
+        Usage of /:   3.6% of 39.34GB   Users logged in:     0
+        Memory usage: 25%               IP address for eth0: 10.0.2.15
+        Swap usage:   0%
+
+        Graph this data and manage this system at:
+        https://landscape.canonical.com/
+
+        UA Infrastructure Extended Security Maintenance (ESM) is not enabled.
+
+        0 updates can be installed immediately.
+        0 of these updates are security updates.
+
+        Enable UA Infrastructure ESM to receive 64 additional security updates.
+        See https://ubuntu.com/advantage or run: sudo ua status
+
+        New release '16.04.7 LTS' available.
+        Run 'do-release-upgrade' to upgrade to it.
+
+
+        vagrant@vagrant-ubuntu-trusty-64:~$
+        '''
+
+        가 뜨면 완료된거임.
+
+5. 확인
+
+    5-1
+        virtualbox 접속해서 좌측 '도구' 밑으로 이미지가 생성되었는지 확인
+
+        있다면 오케이.
+
+        없다면 뭔지 몰라 ㅋ.
+
+
+    # vagrant에서 이미지 지우는 법
+        cmder.exe에서 vagrant 이미지를 다운로드한 서버폴더로 접속해
+        vagrant destroy
+        [y/n] 에서 y로 destroy 완료.
+
+    # cmder에서 폴더 만드는 법
+        cd c:\작업폴더\
+
